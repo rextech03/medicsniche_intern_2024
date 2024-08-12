@@ -1,0 +1,22 @@
+.inside-container{
+    display: float;
+    
+}
+
+.cont1{
+    float: left;
+    padding: auto;
+}
+
+.cont2{
+float: middle;
+padding: auto;
+}
+
+.cont3{
+float: right;
+padding: auto;
+}
+
+.card{
+}
