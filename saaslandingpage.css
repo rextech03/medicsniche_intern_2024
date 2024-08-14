@@ -1,22 +1,6 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(fineFunmipicture.jpg);
-
-}
-
-.aclass{
-    width: 100%;
-    min-height: 100%;
-    background-image: url(/fineFunmipicture.jpg);
-    background-position: center;
-    overflow: hidden;
-    background-size: cover;
-}
-
 nav{
-    padding: 10px 0;
+    padding-left: 12px;
+    padding-right: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,8 +10,27 @@ nav{
     width: 140px;
 }
 
+.menubar {
+    display: flex;
+}
 nav ul li{
     display: inline-block;
-    margin: 15px;
+    margin: 4px;
     list-style: none;
+}
+
+.banner {
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+
+.banner-left {
+    width: 30%;
+    margin-right: 48px;
+}
+
+.banner-right {
+    width: 70%;
 }
